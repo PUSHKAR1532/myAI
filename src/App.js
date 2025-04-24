@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <div className='box'>
         <div className='profile-pic'>
-          <img className='pic' alt='profile pic' src={require('../src/assets/Virat Kohli Net Worth (2024)_ His Lifestyle, Career, and Properties.jpeg')}/>
+          <img className='pic' alt='profile pic' src={require('../src/assets/avi.jpg')}/>
         </div>
         <p className='label'>Ask Anything</p>
         <textarea value={question} onChange={(e)=>{setQuestion(e.target.value)}} />
