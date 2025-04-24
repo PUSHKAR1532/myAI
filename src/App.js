@@ -35,7 +35,7 @@ function App() {
           <img className='pic' alt='profile pic' src={require('../src/assets/Virat Kohli Net Worth (2024)_ His Lifestyle, Career, and Properties.jpeg')}/>
         </div>
         <p className='label'>Ask Anything</p>
-        <textarea onChange={(e)=>{setQuestion(e.target.value)}} />
+        <textarea value={question} onChange={(e)=>{setQuestion(e.target.value)}} />
         <button onClick={submitHandler}>Send</button>
       </div>
       <div className='box'>
